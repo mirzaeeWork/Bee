@@ -1,0 +1,40 @@
+.footer {
+    background-color: #FFB800;
+
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .container div:first-child {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.footer .container div p {
+    margin: 2px 0;
+}
+
+.footer .container div p svg {
+    margin-right: 5px;
+}
+
+
+@media (max-width: 1200px) {
+    .footer {
+        padding:0 20px;
+
+    }
+}
+
+@media (max-width: 600px) {
+    .footer .container div p{
+        font-size: 0.8rem;
+    }
+}
